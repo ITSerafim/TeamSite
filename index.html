@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>NextWebTeam</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <span class="nav-logo">Next Web Team</span>
+        <img src="./img/menu-icon.svg" class="nav-image" />
+      </nav>
+      <section class="header-titles__absolute">
+        <div class="header-titles__flex">
+          <span class="header-main-title">Веб приложения</span>
+          <span class="header-extra-title">Повседневная практика</span>
+          <button class="header-title-btn">Спец. предложение</button>
+        </div>
+      </section>
+      <img src="./img/header.jpg" class="header-img" />
+    </header>
+    <main>
+      <section class="about-company__wrapper">
+        <section class="side-by-side-img">
+          <img src="./img/main-image.jpg" />
+        </section>
+        <section class="side-by-side-info__position">
+          <div id="sbs-info" class="side-by-side-info">
+            <span class="info-title">О компании</span>
+            <div class="about-company-text__list"></div>
+          </div>
+        </section>
+      </section>
+      <section class="service">
+        <h3>Что мы предлагаем</h3>
+        <div class="service-list"></div>
+      </section>
+    </main>
+    <script type="module" src="./scripts/core/element.js"></script>
+    <script type="module" src="./scripts/components/serviceCard.js"></script>
+    <script type="module" src="./scripts/data/serviceCardList.js"></script>
+    <script type="module" src="./scripts/helpers/stringToHtml.js"></script>
+    <script type="module" src="./scripts/core/module.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>

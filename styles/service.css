@@ -1,0 +1,46 @@
+.service {
+  width: 100%;
+  padding: 90px;
+  background-color: #1a1f25;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.service h3 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.service-card {
+  width: 100%;
+  max-width: 220px;
+  padding: 2rem;
+  border: 1px solid #595959;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-img {
+  width: 50px;
+  height: 50px;
+}
+
+.card-body {
+  font-size: 14px;
+}

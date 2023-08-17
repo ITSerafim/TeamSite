@@ -1,0 +1,45 @@
+.about-company__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  background-color: #f1f1f1;
+}
+
+.side-by-side-img > img {
+  width: 100%;
+}
+
+.side-by-side-info__position {
+  position: relative;
+}
+
+.side-by-side-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info-title {
+  font-weight: 500;
+  font-size: 48px;
+  align-self: center;
+}
+
+.about-company-text__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info-paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  max-width: 500px;
+  align-self: center;
+}
